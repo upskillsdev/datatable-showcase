@@ -23,7 +23,7 @@ export function PinnedRow<TData>({
   return (
     <TableRow
       className={cn(
-        'bg-content1 hover:bg-content2 dark:hover:bg-content1 sticky z-10',
+        'bg-content1 hover:bg-content2 dark:hover:bg-content1 sticky z-20',
         {
           'shadow-top-lg': row.getIsPinned() === 'bottom',
           'shadow-lg': row.getIsPinned() === 'top',
